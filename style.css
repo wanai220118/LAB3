@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Page Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f0ff;
+    color: #4d004d;
+    background-image: url(bg3.jpg);
+}
+
+header h1{
+    text-shadow: 2px 2px #4d004d;
+    color: #c29ec2;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #5f3a7a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-image: url(bg3.jpg);
+}
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    } */
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #333;
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        display: flex; /* Use flexbox for the list */
+        flex-wrap: wrap; /* Allow items to wrap to the next row */
+        justify-content: center; /* Center the items */
+    }
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+    li a:hover:not(.active) {
+    background-color: #111;
+    }
+
+    .active {
+    background-color: #6f00ff;
+    color: #333;
+    }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(106, 0, 173, 0.2);
+}
+
+/* Footer */
+.footer {
+    background-image: url(wp2.jpg);
+    text-align: center;
+    padding: 10px;
+    background-color: #5f3a7a;
+    color: rgb(57, 55, 55);
+    margin-top: 20px;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .section {
+    background-image: url(bg1.jpg);
+} */
+
+/* Table Styles for Biodata and Campus Life Pages */
+/* table, th, td {
+    border: 1px solid #9d4edd;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+} */
+
+.campus-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.campus-table th, .campus-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.campus-table img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Side-Bar */
+/* .side-bar {
+    background-color: #7b2cbf;
+    padding: 10px;
+    color: white;
+}
+
+.side-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.side-bar a:hover {
+    text-decoration: underline;
+} */
